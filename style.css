@@ -1,2 +1,83 @@
 
+#main_logo_img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+#main_header{
+    position: relative;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding-top: 0%;
+    font-size: 400%;
+    height: 50%;
+    top: 25%;
+    text-align: center;
+}
+
+.upper_nav{
+    height: 200px;
+}
+
+.lower_nav{
+    height: 100px;
+}
+
+.lower_nav_btn{
+    position: relative;
+    margin-left: 2%;
+    margin-right: 0%;
+    top: 12.5%;
+    height: 75%;
+    width: 22%;
+}
+
+.lower_nav_btn_collection{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+
+    
+}
+
+.list_tools{
+    height: 100px;
+    width: 100%;
+}
+
+.explorer_search_bar{
+    width: 60%;
+}
+
+.explorer_sort_btn{
+    position: relative;
+    left: 87%;
+}
+
+.explorer_list_display{
+    height: 400px;
+    width: 100%;
+}
+
+.explorer_display_block{
+    width: 100%;
+    height: 200px;
+}
+
+.explorer_display_block img{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+}
+
+.explorer_display_block_title{
+    width: 60%;
+    height: 30%;
+    margin: 0 0 0 0;
+    float: right;
+}
 

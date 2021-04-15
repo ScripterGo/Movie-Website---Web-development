@@ -1,0 +1,65 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class = "fluid-container">
+        <div class="row upper_nav">
+            <div class = "badge-dark col-4">
+                <img id = "main_logo_img" src="logo.png" alt="Logo bird here">
+            </div>
+            <div id="main_header_div" class = "col-8 badge-danger">
+                <h1 id ="main_header" class = "text-black-50">Cinema.LY</h1>
+            </div>
+        </div>
+        <nav>
+            <div class = "row lower_nav bg-dark">
+                <div class = "lower_nav_btn_collection">
+                    <button class = "lower_nav_btn btn btn-danger text-black-50" onclick="go_home();"><b>About</b></button>
+                    <button class="lower_nav_btn btn btn-danger text-black-50" onclick="go_list();"><b>List</b></button>
+                    <button class = "lower_nav_btn btn btn-danger text-black-50" onclick="go_explorer();"><b>Explorer</b></button>
+                    <button class = "lower_nav_btn btn btn-danger text-black-50" onclick="go_login();"><b>Login</b></button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class = "container mt-5">
+        <div class = "row list_tools bg-dark align-content-end">
+            <div class = "col-4">
+                <form class="d-flex">
+                    <input class = "form-control me-2 explorer_search_bar" type="search" placeholder="Search..." aria-label="Search">
+                    <button class = "btn btn-danger explorer_search_button text-black-50 ml-2" type="submit"><b>Search</b></button>
+                </form> 
+            </div>
+            <div class = "col-8 align-content-end">
+                <button class = "btn btn-danger explorer_sort_btn text-black-50 ml-2" type="submit"><b>Sort</b></button>
+            </div>
+        </div>
+
+        <div class = "row bg-dark mt-3 p-5 explorer_list_display">
+            <div class = "explorer_display_block bg-danger">
+                <img class= "bg-light ml-3" src="logo.png" alt="Movie Poster">
+                <h1 class="explorer_display_block_title">Title</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

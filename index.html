@@ -1,3 +1,5 @@
+
+<!DOCTYPE html5>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,5 +9,51 @@
 </head>
 <body>
     
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+        <div class = "fluid-container">
+            <section>
+                <div class="row upper_nav">
+                    <div class = "badge-dark col-4">
+                        <img id = "main_logo_img" src="logo.png" alt="Logo bird here">
+                    </div>
+                    <div id="main_header_div" class = "col-8 badge-danger">
+                        <h1 id ="main_header" class = "text-black-50">Cinema.LY</h1>
+                    </div>
+                </div>
+                <nav>
+                    <div class = "row lower_nav bg-dark">
+                        <div class = "lower_nav_btn_collection">
+                            <button class = "lower_nav_btn btn btn-danger text-black-50" onclick="go_home();"><b>About</b></button>
+                            <button class="lower_nav_btn btn btn-danger text-black-50" onclick="go_list();"><b>List</b></button>
+                            <button class = "lower_nav_btn btn btn-danger text-black-50" onclick="go_explorer();"><b>Explorer</b></button>
+                            <button class = "lower_nav_btn btn btn-danger text-black-50" onclick="go_login();"><b>Login</b></button>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </div>
+
+
+        <script src="script.js"></script>
 </body>
 </html>
